@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+.container1 {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.head-main {
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.sub-head {
+    display: flex;
+    gap: 30px;
+}
+.sub-head a {
+    text-decoration: none;
+    color: black;
+}
+.Discover  {
+    text-align: center;
+    margin: 20px;
+    font-size: 38px;
+}
+.main-dis {
+    display: flex;
+    gap: 20px;
+}
+.lux {
+    margin: 20px 0;
+    font-size: 28px;
+}
+.lux1 {
+    line-height: 30px;
+    font-size: 18px;
+}
+.why {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 38px;
+    color: white;
+    letter-spacing: 5px;
+}
+.main-box {
+    display: flex;
+    gap: 20px;
+}
+.box-ser1 {
+    margin: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+}
+.box-ser {
+    margin: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.bg-cl {
+    /* background-image: url(./badamicaves.jpg);
+    background-repeat: no-repeat; */
+    background-color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+.tes {
+    color: black;
+}
+.bg-trav {
+    background-color: rgb(62, 61, 61);
+    padding: 10px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.trav {
+    color: white;
+    font-size: 38px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.trav-flex {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.bg-foot {
+     background-color: black;
+    padding: 30px;
+}
+.foot-img {
+    text-align: center;
+}
+.foot-head {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+.foot-head1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.foot-icon  {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+ @media screen and (max-width:500px) {
+    .head-main,.sub-head,.main-dis,.main-box,.trav-flex {
+        flex-wrap: wrap;
+    }
+    .main-dis img, .trav-flex img {
+        width: 100%;
+    }
+}  
+
+ @media  (min-width:501px) and (max-width:1100px) {
+  
+    .head-main,.sub-head,.main-dis,.main-box,.trav-flex {
+        flex-wrap: wrap;
+    }
+    .main-dis img, .trav-flex img {
+        width: 100%;
+    }
+    
+} 
+
+
+
