@@ -8,6 +8,45 @@
     margin: 0px auto 0px auto;
 }
 
+
+.container1 {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.head-main {
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.sub-head {
+    display: flex;
+    gap: 30px;
+}
+.sub-head a {
+    text-decoration: none;
+    color: black;
+}
+.container2 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.container2 .hero {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
 .head {
     text-align: center;
     font-size: 48px;
@@ -47,6 +86,33 @@ button {
     letter-spacing: 5px;
 }
 
+.bg-foot {
+     background-color: black;
+    padding: 30px;
+}
+.foot-img {
+    text-align: center;
+}
+.foot-head {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+.foot-head1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.foot-icon  {
+    text-align: center;
+    margin: 20px 0px;
+}
+.foot-icon i {
+    padding: 0 5px;
+}
+
 
 @media screen and (max-width:800px) {
     .flex-travel {
@@ -58,3 +124,22 @@ button {
 
     }
 }
+ @media screen and (max-width:500px) {
+    .head-main,.sub-head,.main-dis,.main-box,.trav-flex {
+        flex-wrap: wrap;
+    }
+    .main-dis img, .trav-flex img {
+        width: 100%;
+    }
+}  
+
+ @media  (min-width:501px) and (max-width:1100px) {
+  
+    .head-main,.sub-head,.main-dis,.main-box,.trav-flex {
+        flex-wrap: wrap;
+    }
+    .main-dis img, .trav-flex img {
+        width: 100%;
+    }
+    
+} 

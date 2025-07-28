@@ -10,6 +10,7 @@
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 1;
 }
 .head-main {
     display: flex;
@@ -27,9 +28,22 @@
     text-decoration: none;
     color: black;
 }
+.container2 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.container2 .hero {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
 .Discover  {
     text-align: center;
-    margin: 20px;
+    margin: 40px;
     font-size: 38px;
 }
 .main-dis {
@@ -115,7 +129,10 @@
 }
 .foot-icon  {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0px;
+}
+.foot-icon i {
+    padding: 0 5px;
 }
 
 
